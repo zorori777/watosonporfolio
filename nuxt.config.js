@@ -1,4 +1,16 @@
 module.exports = {
+  modules: [
+    // provide path to the file with resources
+    ['nuxt-sass-resources-loader', [
+      '@/assets/css/application.scss'
+    ]],
+  ],
+  css: [
+    '@fortawesome/fontawesome-free-webfonts',
+    '@fortawesome/fontawesome-free-webfonts/css/fa-brands.css',
+    '@fortawesome/fontawesome-free-webfonts/css/fa-regular.css',
+    '@fortawesome/fontawesome-free-webfonts/css/fa-solid.css',
+  ],
   /*
   ** Headers of the page
   */
