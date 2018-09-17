@@ -1,4 +1,10 @@
 module.exports = {
+  modules: [
+    // provide path to the file with resources
+    ['nuxt-sass-resources-loader', [
+      '@/assets/css/application.scss'
+    ]],
+  ],
   /*
   ** Headers of the page
   */
